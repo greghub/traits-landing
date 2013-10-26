@@ -121,8 +121,9 @@ width: 100%;
 
 /* header-description */
 .header-description {
-  margin: 130px 0 80px;
   text-align: center;
+  width: 710px;
+  margin: 40px auto 60px;
 }
 .header-description h2 {  
   font-weight: 100;
@@ -551,8 +552,8 @@ ul.social li:nth-child(6):before{
     padding-right: 20px;
   }
   .header-description {
-    margin: 76px 0 80px;
-  }
+    margin: 76px 240px 80px;
+    width: auto;  }
   .header-description h2 {
     font-size: 66px;
     line-height: 58px;
@@ -590,6 +591,9 @@ ul.social li:nth-child(6):before{
     height: 31px;
     width: 154px;
   }
+  .subscribe select {
+    height: 41px;
+  }
   .btn-custom {
     padding: 9px 14px 8px;
   }
@@ -619,4 +623,49 @@ ul.social li:nth-child(6):before{
 
 #teams {
   padding: 60px 0;
+}
+
+.circles li {
+  border: 8px solid white;
+  list-style-type: none;
+  float: left;
+  font-size: 43px;
+  color: white;
+  width: 100px;
+  height: 100px;
+  margin: 10px 10px;
+  border-radius: 50%;
+}
+
+.circles li i {
+  margin-top: 28px;
+}
+
+
+.circles li span {
+  margin-top: 38px;
+  font-size: 19px;
+}
+
+.circles li span {
+  display: none;
+}
+
+.circles li:hover {
+  background: white;
+  cursor: pointer;
+  opacity: .8;
+}
+
+.circles li:hover i {
+  display: none;
+}
+
+.circles li:hover span {
+  display: block;
+  color: #5B1D67;
+}
+
+.clear {
+  clear: both;
 }
